@@ -12,10 +12,13 @@ import java.util.Arrays;
  * @author user2
  */
 public class VariableLengthArray {
+    
     int test(int first){
         return 0;
     }
-   
+   public static void printSomethig(String msg){
+       System.out.println(msg);
+   }
     
     public  void printMax(double... values){// values type array
        double max=values[0];
